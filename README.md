@@ -6,4 +6,7 @@ On a further note - The proposed setup also puts a bit more focus on the environ
 
 We will initially discuss the environment design. Towards the end of the notebook, the environement designed and discussed is employed in an example triaining loop. This particular implementation uses a actor-critic approach, cumulative multistep rewards, achieved via benchmarking against a vanilla TWAP order execution strategy with an LSTM and some tricks for smartly parsing the LOB data in the policy network.
 
-Developed by Esteban Lanter
+This is purely didactic code for presentation purposes. 
+For fully featured performant exchange simulation environments with fully modelled stochastic agents, messaging, event & latency simuations, contact Author:
+
+estebanlanter86@gmail.com
